@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+body{
+    background-color: #fffafa;
+    height: 100vh;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo{
+    margin-left: 15px;
+    margin-right: 20px;
+}
+
+#nome-logo{
+    margin-top: 33px;
+    font-family: "Imperial Script", cursive;
+    font-weight: 100;
+    font-size: 40px;
+    cursor: default;
+    user-select: none;
+}
+
+#categorias {
+    display: flex;
+    align-items: center; 
+    gap: 40px; 
+    margin-top: 30px;
+    margin-left: 160px;
+}
+
+.lista-botoes {
+    display: flex;
+    flex-direction: column;
+}
+
+.lista-botoes :hover{
+    background-color: #CE2B37;
+    width: 150px;
+    height: 50px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.botao-div {
+    background-color: #EDE7E7;
+    border: none;
+    border-radius: 7px;
+    width: 150px;
+    height: 50px;
+    margin-bottom: 20px;
+    color: #897A7A;
+    font-family: "Poppins", sans-serif;
+}
+
+#meu-card {
+    background-color: #EDE7E7;
+    width: 840px;
+    height: 400px;
+    border-radius: 10px;
+    margin-bottom: 19px;
+}
+
+#finalizar-compras{
+    background-color: #009246;
+    border: none;
+    border-radius: 7px;
+    width: 130px;
+    height: 30px;
+    margin-bottom: 20px;
+    font-family: "Poppins", sans-serif;
+    color: #001a0d;
+    cursor: pointer;
+}
+
+#finalizar-compras :hover{
+    background-color: #01532a;
+    color: #001a0d;
+}
+
+#div-finalizar{
+    display: flex;
+    justify-content: end;
+    margin-right: 177px;
+}
+
+#div-finalizar :hover{
+    background-color: #2bdd84;
+    color: #001a0d;
+    width: 130px;
+    height: 30px;
+}
